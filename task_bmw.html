@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #idk{         
+           
+            border: black solid 2px;
+            position: relative;
+            z-index: 1;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        #p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+        #navi{
+            width: 90%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        #p1{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-bottom: white solid 2px;
+            background-image: url(./Website_Banner_2_v3_desktop_16to9.webp);
+            height: 110vh;
+            width: 100%;
+            background-size:cover;
+    font-weight: bold;
+
+        }
+        #navig{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+        }
+hr{
+    width: 100%;
+    border: 1px solid white;
+}
+        #main{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid black; */
+    height: 80px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sub1{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid yellow; */
+    height: 60px;
+    width:600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub11{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid yellow; */
+    height: 60px;
+    width:200px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#su311{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:100px ;
+
+}
+.sub3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       /* border: 2px solid red;    */
+    height: 40px;
+    width:280px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sub3:hover{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-bottom: 2px solid blue;
+cursor: pointer;
+}
+
+.sub31:hover{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-bottom: 2px solid blue;
+cursor: pointer;
+}
+#su314{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 350px;
+}
+
+.sub31{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* border: 2px solid red; */
+    height: 40px;
+    width:100px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#butto{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #156cdf;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+    width: 150px;
+    position: relative;
+    left:50px ;
+    top: 40vh;
+    border: none;
+    border-radius: 5px;
+}
+#butto:hover{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #0653B6; 
+  cursor: pointer;  
+}
+#find{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.ib{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: black 2px solid; */
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.ib1{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: black 2px solid; */
+    height: 80%;
+    width: 50vh;
+   
+
+}
+.ib2{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: black 2px solid; */
+    height: 33%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 3px;
+
+}
+#leave{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    height: 30px;
+    top: -90vh;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 20px;
+}
+#leave1{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    height: 30px;
+    top: -300px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 20px;
+}
+#butto2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+ height: 50px;
+    width: 150px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+}
+#butto2:hover{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 2px solid black;
+  cursor: pointer;  
+}
+
+#butto1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #156cdf;
+    font-size: 15px;
+ height: 50px;
+    width: 150px;
+   border: 2px solid  #156cdf ;
+    border-radius: 4px;
+    color: white;
+}
+#butto1:hover{
+    background-color: #0653B6; 
+    border: 2px solid  #156cdf ;
+    color: white;
+
+  cursor: pointer;  
+}
+
+[src="./WhatsApp Video 2025-09-25 at 17.31.42_9a191bcb.mp4"]{
+    width: 100%;
+}
+
+#hlm{
+    font-size: 200px;
+    font-weight: 100;
+    line-height: 0.8;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+section3{
+    height: 50vh;
+}
+.ib4{
+   background-color: rgba(0,0,0, 1);
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- top page -->
+     <!-- <div id="idk"> -->
+        <!-- <img id="idk" src="./bmw.jpg" alt=""> -->
+        
+       <section id="p1">
+        <div id="p2">
+        <nav id="navi">
+             
+           <div id="main">
+        <div id="su21"class="sub1">
+        <div class="sub37" id="su311"><img src="./image.png" alt="NA"></div>
+        <div class="sub3" id="su312">All Models</div>
+        <div class="sub3" id="su313">Electric</div>
+        <div class="sub3" id="su314">Visit  Shop <span class="material-symbols-outlined">
+keyboard_arrow_down
+</span></div>
+        <div class="sub3" id="su315">More BMW <span class="material-symbols-outlined">
+keyboard_arrow_down
+</span></div>
+    </div>
+    <div id="su22" class="sub11">
+        <div class="sub31" id="su321"><img src="./person_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+        <div class="sub31" id="su322"><img src="./shopping_cart_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+        <div class="sub31" id="su323"><img src="./favorite_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+        <div class="sub31" id="su324"><img src="./location_on_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+        
+    </div>
+</div>
+<hr>
+
+        </nav>
+        </div>
+
+        <button id="butto"><b>Discover Now</b></button>
+        </section>
+
+
+        
+     <section>
+      <center> <h1 id="find">Find your BMW.</h1></center> 
+      <div class="ib">
+        <div class="ib1">
+            <div class="ib2"><img height="40px" src="./directions_car_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+            <div class="ib2">Find a new car.</div>
+            <div class="ib2"><button id="butto2"><b>Search now</b></button></div>
+           
+         
+        </div>
+        <div class="ib1">
+           
+            <div class="ib2"><img height="40px" src="./car_lock_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+             <div class="ib2">Book a test drive</div>
+           <div class="ib2"><button id="butto2"><b>Request a test drive</b></button></div>
+           
+          
+        </div>
+        <div class="ib1">
+          
+               <div class="ib2"><img height="40px" src="./car_gear_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+              <div class="ib2">Build your own</div>
+            <div class="ib2"><button id="butto2"><b>Configure and price</b></button></div>
+        </div>
+      </div>
+     </section>
+ 
+    
+      <!-- bmw video -->
+
+      <section id="section3">
+        <video autoplay muted loop src="./WhatsApp Video 2025-09-25 at 17.31.42_9a191bcb.mp4" ></video>
+        <div id="leave">
+<span style="font-size: 20px; margin: 0px;  padding: 0px; letter-spacing: 8px;">THE NEW </span><br>
+<span id="hlm" >2</span> <br>
+<span style="font-size: 40px; margin: 0px; padding: 0px;">LEAVE BORING BEHIND.</span><br><br>
+<button id="butto1"><b>Skip boring</b></button>
+</div>
+      </section>
+      <div style="border:1px solid black; border-radius: 30px; height: 40px; width: 40px; background-color: white; position: sticky; bottom: 10px; left: 220vh; display: flex; justify-content: center; align-items: center;"><img src="./call_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+    <section>
+        <img src="./section4.webp" alt="">
+        <div id="leave1">LUXURY.FAST.FORWARD.<br>THE BMW 7 RANGE.<br>
+        <div class="ib4"><button id="butto2"><b>Discover now</b></button></div></div>
+    </section>
+</body>
+</html>
